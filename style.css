@@ -70,7 +70,18 @@ h2{
     content: "Seconds";
 }
 
-
-
-
-
+.rate {
+     border-radius: 30px;
+     background:linear-gradient(to right, rgb(0, 255, 213),rgb(0, 153, 255));
+    padding: 10px 20px;
+    
+}
+.rate a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(252, 249, 249);
+    font-size: 15px;
+}
+.rate a:hover{
+    color: black;
+}
